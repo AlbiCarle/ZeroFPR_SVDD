@@ -25,7 +25,7 @@ while(i<maxiter)
     
 y = SVDD_N1C_TEST(Xtr, Ytr, alpha, Xts, kernel, param, Rsq);
 
-Y = [y Yts];
+Y = [y Ytr];
 
 TN = sum(Y(:,1)==-1 & Y(:,2)==-1);
 FN = sum(Y(:,1)==-1 & Y(:,2)==+1);
