@@ -1,4 +1,4 @@
-function R_star = RadiusReductionSVDD(Xtr, Ytr, alpha, Xts, kernel, param, Rsquared, treshold)
+function R_star = RadiusReductionSVDD(Xtr, Ytr, alpha, Xts, Yts, kernel, param, Rsquared, treshold)
 
 % RadiusReductionSVDD
 
@@ -25,7 +25,7 @@ while(i<maxiter)
     
 y = SVDD_N1C_TEST(Xtr, Ytr, alpha, Xts, kernel, param, Rsq);
 
-Y = [y Ytr];
+Y = [y Yts];
 
 TN = sum(Y(:,1)==-1 & Y(:,2)==-1);
 FN = sum(Y(:,1)==-1 & Y(:,2)==+1);
