@@ -118,17 +118,17 @@ FN = sum(Y(:,1)==-1 & Y(:,2)==+1);
 TP = sum(Y(:,1)==+1 & Y(:,2)==+1);
 FP = sum(Y(:,1)==+1 & Y(:,2)==-1);
 
-FNR_start = FN/P;
-FPR_start = FP/N;
+FNR_end = FN/P;
+FPR_end = FP/N;
 
-ACC_start = (TP+TN)/(P+N);
+ACC_end = (TP+TN)/(P+N);
 
-F1_start = 2*TP/(2*TP+FP+FN);
+F1_end = 2*TP/(2*TP+FP+FN);
 
-PPV_start = TP/(TP+FP);
-NPV_start = TN/(TN+FN);
+PPV_end = TP/(TP+FP);
+NPV_end = TN/(TN+FN);
 
-TotalN_start = TP+FP;
+TotalN_end = TP+FP;
 
 %figure(5)
 
