@@ -3,7 +3,8 @@ Safety regions research is a well-known task for ML  and the main focus is to av
 
 Zero_FPR_exe.m is the example code of the the algorithm, while ZeroFPR_SVDD.m is the code of the main algorithm.
 
-To find out more, refer to {A. Carlevaro and M. Mongelli, "A New SVDD Approach to Reliable and eXplainable AI" in IEEE Intelligent Systems, vol. , no. 01, pp. 1-1, 5555.
-doi: 10.1109/MIS.2021.3123669, keywords: {safety;kernel;intelligent systems;support vector machines;training;optimization;task analysis}, url: https://doi.ieeecomputersociety.org/10.1109/MIS.2021.3123669 }
+Cite As -) Plain text A. Carlevaro and M. Mongelli, "A New SVDD Approach to Reliable and Explainable AI," in IEEE Intelligent Systems, vol. 37, no. 2, pp. 55-68, 1 March-April 2022, doi: 10.1109/MIS.2021.3123669.
+
+-) BibTex @ARTICLE{9594676, author={Carlevaro, Alberto and Mongelli, Maurizio}, journal={IEEE Intelligent Systems}, title={A New SVDD Approach to Reliable and Explainable AI}, year={2022}, volume={37}, number={2}, pages={55-68}, doi={10.1109/MIS.2021.3123669}}
 
 Author ORCID: https://orcid.org/0000-0002-7206-5511
